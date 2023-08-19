@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="goit-markup-hw-01" />
-    <title>goit-markup-hw-03</title>
+    <title>goit-markup-hw-04</title>
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -34,12 +34,12 @@
               >
             </li>
             <li class="pages-list-item">
-              <a class="link pages-list-item-link" href="./portfolio.html"
+              <a class="pages-list-item-link link" href="./portfolio.html"
                 >Portfolio</a
               >
             </li>
             <li class="pages-list-item">
-              <a class="link pages-list-item-link" href="">Contacts</a>
+              <a class="pages-list-item-link link" href="">Contacts</a>
             </li>
           </ul>
         </nav>
@@ -71,7 +71,7 @@
           <h1 class="section-hero-title">
             Effective Solutions for Your Business
           </h1>
-          <button class="section-hero-button" type="button">
+          <button class="section-hero-button" type="button" data-modal-open>
             Order Service
           </button>
         </div>
@@ -411,5 +411,17 @@
         </div>
       </div>
     </footer>
+
+    <!-- MODAL WINDOW -->
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg class="modal-btn-icon" width="8" height="8">
+            <use href="./images/sprite.svg#icon-close-black"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
