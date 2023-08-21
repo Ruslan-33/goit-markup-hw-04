@@ -660,6 +660,10 @@ footer .header-logo {
   transform: translateY(0%);
 }
 
+.project-card-link:focus .overlay {
+  transform: translateY(0%);
+}
+
 .portfolio-box {
   position: relative;
   overflow: hidden;
